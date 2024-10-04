@@ -2,3 +2,32 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --font-name: "IBM Plex mono";
+  --font-size-text: 18px;
+  --font-size-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --font-fat: 700;
+  --font-thin: 400;
+  --font-line-height-title: 129.53px;
+  --font-height-text: 23.4px;
+  --padding-mobile: 10px;
+  --padding-desktop: 20px;
+  --card-column: calc((100% * (325 / (325 + 650))) + 0.7%)
+    calc((100% * (650 / (325 + 650))) - 0.7%);
+  --block-padding: 60px;
+  --background-image: url(../images/cover-image-dark.png);
+  --shadow-and-bg-color: #ff0070;
+  --header-font-color: #db00ff;
+  --font-color: #f1b2ce;
+  --main-font-color: #000028;
+  --font-color-accent-and-bg-color: #000028;
+  --header-font-color-button: #ff0070;
+  --header-border-button-hover: #ff007066;
+  --header-border-button: #ff0070;
+  --corner-color: #ff0070;
+  --card-question-color: #ff0070;
+  --shadow-and-bg-color-rec: var(--shadow-and-bg-color);
+  --shadow: 2px 2px var(--shadow-and-bg-color);
+  --shadow-rec: 0 0 4px 2px var(--shadow-and-bg-color);
+  --background-color: #000028;
+}

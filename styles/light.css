@@ -9,4 +9,21 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --background-image: url(../images/cover-image-light.png);
+  --shadow-and-bg-color:  #ff8dcb;
+  --shadow-and-bg-color-rec:  transparent;
+  --header-font-color: #ffc2e6;
+  --font-color: #353430;
+  --main-font-color: #353430;
+  --header-font-color-button: #353430;
+  --header-border-button-hover: #32312D66;
+  --header-border-button: #353430;
+  --corner-color: #353430;
+  --card-question-color: #353430;
+  --rec: none;
+  --circl-radius: 0;
+  --shadow: 2px 2px var( --shadow-and-bg-color);
+  --shadow-rec: none;
+  --background-color: transparent;
+  --display-decorated-text: none;
 }
