@@ -5,7 +5,6 @@
 :root {
   --font-name: "IBM Plex mono";
   --font-size-text: 18px;
-  --font-size-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --font-fat: 700;
   --font-thin: 400;
   --font-line-height-title: 129.53px;
@@ -30,4 +29,7 @@
   --shadow: 2px 2px var(--shadow-and-bg-color);
   --shadow-rec: 0 0 4px 2px var(--shadow-and-bg-color);
   --background-color: #000028;
+  --block-padding: 80px;
+  --card-column: calc(100% * (256 / (256 + 472)))
+      calc(100% * (472 / (256 + 472)));
 }
