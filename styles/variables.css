@@ -32,4 +32,5 @@
   --block-padding: 80px;
   --card-column: calc(100% * (256 / (256 + 472)))
       calc(100% * (472 / (256 + 472)));
+  --card-columns: repeat(auto-fill, minmax(calc((100% - 40px) / 3), 1fr));
 }
