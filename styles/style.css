@@ -11,12 +11,11 @@
   background-attachment: fixed;
   background-color: var(--background-color);
   max-width: 1024px;
-  margin: 0 auto;
 }
 
 .header {
-  max-height: 100vh;
-  min-height: 768px;
+  height: 100vh;
+  min-height: 668px;
   position: relative;
   display: grid;
   grid-template-rows: 1fr 3fr 2fr;
@@ -62,7 +61,7 @@
   text-align: center;
   color: var(--header-font-color-button);
   border: 1px solid transparent;
-  padding: 2px;
+  padding: 1px;
   box-sizing: border-box;
   outline: none;
 }
@@ -84,9 +83,9 @@
 
 .header__title {
   grid-area: header__title;
+  padding-block-end: 63px;
   display: flex;
   align-items: end;
-  padding-block-end: 63px;
   font-family: var(--font-name), sans-serif;
   font-weight: var(--font-fat);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -97,13 +96,13 @@
 
 .header__subtext {
   grid-area: header__subtext;
+  padding-block-start: 51px;
   padding-inline-end: var(--padding-desktop);
   font-family: var(--font-name), sans-serif;
   font-weight: var(--font-fat);
   font-size: var(--font-size-text);
   line-height: var(--font-height-text);
   color: var(--main-font-color);
-  padding-top: 51px;
 }
 
 .title-decor {
@@ -118,7 +117,7 @@
 }
 
 .header-text {
-  margin-bottom: 0;
+  margin-block-end: 0;
 }
 
 .decorated-zone::before {
@@ -358,7 +357,7 @@
   align-items: center;
   width: 100%;
   height: 100vh;
-  min-height: 768px;
+  min-height: 668px;
   position: relative;
   margin-block-start: 60px;
   padding-inline: var(--padding-desktop);
@@ -376,6 +375,7 @@
 @media (max-width: 1023px) {
   .header {
     max-height: 100%;
+
     grid-template-rows: repeat(3, 1fr);
   }
 
@@ -448,7 +448,7 @@
   .header__theme-menu {
     display: flex;
     justify-content: flex-end;
-    padding-block: 75px;
+    padding-block: 50px;
     padding-inline-end: var(--padding-mobile);
   }
 
@@ -457,7 +457,7 @@
   }
 
   .header__title {
-    align-items: start;
+    align-items: center;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     padding-block-start: 0px;
     line-height: 95px;
@@ -465,7 +465,7 @@
   }
 
   .header__subtext {
-    padding-block-start: 0;
+    padding-block-start: 39px;
     padding-inline: var(--padding-mobile);
   }
 
